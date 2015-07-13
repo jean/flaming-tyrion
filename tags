@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+LOG	src/test/tags/__init__.py	/^LOG = logging.getLogger(name=__name__)$/;"	v
+NullHandler	src/test/tags/__init__.py	/^    class NullHandler(logging.Handler):$/;"	c
+SomeTest	tests/test_package.py	/^class SomeTest(unittest.TestCase):$/;"	c
+__version__	src/test/tags/__init__.py	/^    __version__ = 'unknown'$/;"	v
+__version__	src/test/tags/__init__.py	/^    __version__ = pkg_resources.get_distribution(u'TagsTest').version$/;"	v
+createLock	src/test/tags/__init__.py	/^        def createLock(self):$/;"	m	class:NullHandler
+dev_require	setup.py	/^dev_require = []$/;"	v
+dummy	tests/test_narrative_fixt.py	/^def dummy():$/;"	f
+emit	src/test/tags/__init__.py	/^        def emit(self, record):$/;"	m	class:NullHandler
+globs	tests/test_narrative_fixt.py	/^def globs(globs):$/;"	f
+handle	src/test/tags/__init__.py	/^        def handle(self, record):$/;"	m	class:NullHandler
+long_description	setup.py	/^long_description = '\\n\\n'.join($/;"	v
+read	setup.py	/^def read(*names):$/;"	f
+setUp	tests/test_package.py	/^    def setUp(self):$/;"	m	class:SomeTest
+setUpClass	tests/test_package.py	/^    def setUpClass(cls):$/;"	m	class:SomeTest
+setUpModule	tests/test_package.py	/^def setUpModule():$/;"	f
+setup_test	tests/test_narrative_fixt.py	/^def setup_test(test):$/;"	f
+tearDown	tests/test_package.py	/^    def tearDown(self):$/;"	m	class:SomeTest
+tearDownClass	tests/test_package.py	/^    def tearDownClass(cls):$/;"	m	class:SomeTest
+tearDownModule	tests/test_package.py	/^def tearDownModule():$/;"	f
+teardown_test	tests/test_narrative_fixt.py	/^def teardown_test(test):$/;"	f
+test_fake	tests/test_package.py	/^    def test_fake(self):$/;"	m	class:SomeTest
+tests_abs_path	tests/resources.py	/^tests_abs_path = functools.partial(os.path.join, tests_directory)$/;"	v
+tests_directory	tests/resources.py	/^tests_directory = os.path.dirname(os.path.abspath(__file__))$/;"	v
+this_directory	setup.py	/^this_directory = os.path.abspath(os.path.dirname(__file__))$/;"	v
+version	setup.py	/^version = '1.0.0.dev0'$/;"	v
