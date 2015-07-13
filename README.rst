@@ -4,12 +4,11 @@ TagsTest
 
 Python package to test tags
 
-FIXME: provide a two paragraphs summary of this package
+See https://www.tkalin.com/blog_posts/ide-like-go-to-declaration-in-vim/#comment-2134314013
 
-Full documentation and API
-==========================
+This package was generated from a mrbob template. Here's the command used:
+``mrbob bobtemplates.gillux:nspackage``
 
-FIXME: Provide the URL of the documentation (@ readthedocs.org ?)
 
 Developer notes
 ===============
@@ -33,16 +32,6 @@ Run the tests:
 Links
 =====
 
-FIXME: Provide real links
-
-Project home page
-
-  http://www.mystuff.com/project
-
 Source code
 
-  http://www.mystuff.com/source
-
-Issues tracker
-
-  http://www.mystuff.com/issues
+  https://gist.github.com/jean/3e9166ca7e5f11583c7a
