@@ -31,25 +31,6 @@ If I start Vim with no plugins or config files, ``:tselect setUp`` displays::
     Type number and <Enter> (empty cancels):
 
 
-Developer notes
-===============
-
-Please use a virtualenv to maintain this package, but I should not need to say that.
-
-Grab the source from the SCM repository:
-
-.. code:: console
-
-  $ python setup.py develop
-  $ pip install TagsTest[dev]
-
-Run the tests:
-
-.. code:: console
-
-  $ nosetests
-
-
 Links
 =====
 
